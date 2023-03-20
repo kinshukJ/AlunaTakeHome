@@ -1,9 +1,9 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A collection of utility functions used for displaying strings related to HealthKit.
-*/
+ See LICENSE folder for this sample’s licensing information.
+ 
+ Abstract:
+ A collection of utility functions used for displaying strings related to HealthKit.
+ */
 
 import Foundation
 import HealthKit
@@ -23,6 +23,8 @@ func getDataTypeName(for identifier: String) -> String? {
             description = "Step Count"
         case .distanceWalkingRunning:
             description = "Distance Walking + Running"
+        case .walkingSpeed:
+            description = "Average Walking Speed"
         case .sixMinuteWalkTestDistance:
             description = "Six-Minute Walk"
         default:
@@ -60,6 +62,10 @@ private func getRoundedValue(for value: Double, with unit: HKUnit) -> String? {
         let numberValue = NSNumber(value: round(value))
         
         return numberFormatter.string(from: numberValue)
+    case .mile().unitDivided(by: .hour()):
+        let numberValue = NSNumber(value: round(value * 100) / 100)
+        
+        return numberFormatter.string(from: numberValue)
     default:
         return nil
     }
@@ -73,6 +79,8 @@ func getUnitDescription(for unit: HKUnit) -> String? {
         return "steps"
     case .meter():
         return "meters"
+    case .mile().unitDivided(by: .hour()):
+        return "miles per hour"
     default:
         return nil
     }
@@ -84,6 +92,8 @@ private func getUnitSuffix(for unit: HKUnit) -> String? {
         return "steps"
     case .meter():
         return "m"
+    case .mile().unitDivided(by: .hour()):
+        return "mph"
     default:
         return nil
     }

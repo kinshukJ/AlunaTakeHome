@@ -30,6 +30,7 @@ class MainTabViewController: UITabBarController {
             createWelcomeViewController(),
             createWeeklyQuantitySampleTableViewController(),
             createChartViewController(),
+            createReportViewController(),
             createWeeklyReportViewController()
         ]
         
@@ -66,6 +67,15 @@ class MainTabViewController: UITabBarController {
         viewController.tabBarItem = UITabBarItem(title: "Charts",
                                                  image: UIImage(systemName: "square"),
                                                  selectedImage: UIImage(systemName: "square.fill"))
+        return viewController
+    }
+    
+    private func createReportViewController() -> UIViewController {
+        let viewController = ReportViewController(dataTypeIdentifier: HKQuantityTypeIdentifier.walkingSpeed.rawValue)
+        
+        viewController.tabBarItem = UITabBarItem(title: "Report",
+                                                 image: UIImage(systemName: "hexagon"),
+                                                 selectedImage: UIImage(systemName: "hexagon.fill"))
         return viewController
     }
     

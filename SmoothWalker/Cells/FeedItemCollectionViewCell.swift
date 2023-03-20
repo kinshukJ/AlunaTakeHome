@@ -69,7 +69,7 @@ class DataTypeCollectionViewCell: UICollectionViewCell {
         
         // Update headerView
         chartView.headerView.titleLabel.text = getDataTypeName(for: dataTypeIdentifier) ?? "Data"
-        chartView.headerView.detailLabel.text = createChartWeeklyDateRangeLabel()
+        chartView.headerView.detailLabel.text = createChartDateRangeLabel()
         
         // Update graphView
         chartView.applyDefaultConfiguration()

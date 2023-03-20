@@ -12,10 +12,11 @@ import HealthKit
 class MobilityChartDataViewController: DataTypeCollectionViewController {
     
     let calendar: Calendar = .current
-    
+        
     var mobilityContent: [String] = [
         HKQuantityTypeIdentifier.stepCount.rawValue,
-        HKQuantityTypeIdentifier.distanceWalkingRunning.rawValue
+        HKQuantityTypeIdentifier.distanceWalkingRunning.rawValue,
+        HKQuantityTypeIdentifier.walkingSpeed.rawValue
     ]
     
     var queries: [HKAnchoredObjectQuery] = []
@@ -24,7 +25,7 @@ class MobilityChartDataViewController: DataTypeCollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+     
         data = mobilityContent.map { ($0, []) }
     }
     
@@ -61,7 +62,7 @@ class MobilityChartDataViewController: DataTypeCollectionViewController {
     
     func createAnchoredObjectQuery(for sampleType: HKSampleType) {
         // Customize query parameters
-        let predicate = createLastWeekPredicate()
+        let predicate = createPredicate()
         let limit = HKObjectQueryNoLimit
         
         // Fetch anchor persisted in memory
@@ -116,10 +117,10 @@ class MobilityChartDataViewController: DataTypeCollectionViewController {
         for (index, item) in data.enumerated() {
             // Set dates
             let now = Date()
-            let startDate = getLastWeekStartDate()
+            let startDate = getStartDate()
             let endDate = now
             
-            let predicate = createLastWeekPredicate()
+            let predicate = createPredicate()
             let dateInterval = DateComponents(day: 1)
             
             // Process data.

@@ -53,7 +53,7 @@ class WeeklyQuantitySampleTableViewController: HealthDataTableViewController, He
     // MARK: - HealthQueryDataSource
     
     func performQuery(completion: @escaping () -> Void) {
-        let predicate = createLastWeekPredicate()
+        let predicate = createPredicate()
         let anchorDate = createAnchorDate()
         let dailyInterval = DateComponents(day: 1)
         let statisticsOptions = getStatisticsOptions(for: dataTypeIdentifier)
@@ -69,7 +69,7 @@ class WeeklyQuantitySampleTableViewController: HealthDataTableViewController, He
             self.dataValues = []
             
             let now = Date()
-            let startDate = getLastWeekStartDate()
+            let startDate = getStartDate()
             let endDate = now
             
             statisticsCollection.enumerateStatistics(from: startDate, to: endDate) { [weak self] (statistics, stop) in

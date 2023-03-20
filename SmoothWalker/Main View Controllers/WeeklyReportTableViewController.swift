@@ -19,7 +19,7 @@ class WeeklyReportTableViewController: HealthQueryTableViewController {
         super.init(dataTypeIdentifier: HKQuantityTypeIdentifier.sixMinuteWalkTestDistance.rawValue)
         
         // Set weekly predicate
-        queryPredicate = createLastWeekPredicate()
+        queryPredicate = createPredicate()
     }
     
     required init?(coder: NSCoder) {
@@ -48,7 +48,7 @@ class WeeklyReportTableViewController: HealthQueryTableViewController {
     override func didTapFetchButton() {
         Network.pull() { [weak self] (serverResponse) in
             self?.dateLastUpdated = serverResponse.date
-            self?.queryPredicate = createLastWeekPredicate(from: serverResponse.date)
+            self?.queryPredicate = createPredicate(from: serverResponse.date)
             self?.handleServerResponse(serverResponse)
         }
     }

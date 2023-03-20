@@ -25,6 +25,7 @@ class DataTypeCollectionViewController: UIViewController {
         
         return collectionView
     }()
+
     
     var data: [(dataTypeIdentifier: String, values: [Double])] = []
     
@@ -68,6 +69,7 @@ class DataTypeCollectionViewController: UIViewController {
     }
     
     private func setUpViews() {
+        
         view.addSubview(collectionView)
         
         setUpConstraints()
