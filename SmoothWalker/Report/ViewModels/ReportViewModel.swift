@@ -69,6 +69,7 @@ extension ReportViewModel {
     
     // MARK: Data Functions
     
+    // This should ideally be in a protocol based ReportDataService struct. That way we can mock it for unit testing. 
     private func performQuery(completion: @escaping () -> Void) {
         // Set dates
         let startDate = getStartDate(for: selectedDateRange)
