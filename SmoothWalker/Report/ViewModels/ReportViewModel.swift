@@ -95,9 +95,9 @@ extension ReportViewModel {
                    let unit = preferredUnit(for: self.dataTypeIdentifier) {
                     let value = quantity.doubleValue(for: unit)
                     dataValue.value = value
+                    self.dataValues.append(dataValue)
                 }
                 
-                self.dataValues.append(dataValue)
                 self.chartValues.append(dataValue.value)
             }
                         

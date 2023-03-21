@@ -10,6 +10,17 @@
 		8579DDF529C81BF5003B4DED /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579DDF429C81BF5003B4DED /* ReportViewController.swift */; };
 		8579DDF729C81EF9003B4DED /* ReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579DDF629C81EF9003B4DED /* ReportViewModel.swift */; };
 		85CA496A29C9093800BB7022 /* ReportViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA496929C9093800BB7022 /* ReportViewModelTests.swift */; };
+		85CA497229C9103A00BB7022 /* AppleWatchSmoothWalkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA497129C9103A00BB7022 /* AppleWatchSmoothWalkerApp.swift */; };
+		85CA497429C9103B00BB7022 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA497329C9103B00BB7022 /* ContentView.swift */; };
+		85CA497629C9103C00BB7022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CA497529C9103C00BB7022 /* Assets.xcassets */; };
+		85CA497929C9103C00BB7022 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CA497829C9103C00BB7022 /* Preview Assets.xcassets */; };
+		85CA498329C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA498229C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppTests.swift */; };
+		85CA498D29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA498C29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITests.swift */; };
+		85CA498F29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA498E29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITestsLaunchTests.swift */; };
+		85CA499929C9167100BB7022 /* HealthDataTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB12722C2485BA9400548CD1 /* HealthDataTypeValue.swift */; };
+		85CA499B29C916DC00BB7022 /* HealthKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9525C12475BD41001B5178 /* HealthKitSupport.swift */; };
+		85CA499C29C918DF00BB7022 /* HealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB326B4F246B1B5700FEFD08 /* HealthData.swift */; };
+		85CA499E29C9271900BB7022 /* HealthKitSupport+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB305B7D2485E4B8007A7694 /* HealthKitSupport+Strings.swift */; };
 		EB12722B24859C1600548CD1 /* DataTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB12722A24859C1600548CD1 /* DataTypeTableViewCell.swift */; };
 		EB12722D2485BA9400548CD1 /* HealthDataTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB12722C2485BA9400548CD1 /* HealthDataTypeValue.swift */; };
 		EB12722F2485C83E00548CD1 /* EmptyDataBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB12722E2485C83E00548CD1 /* EmptyDataBackgroundView.swift */; };
@@ -51,6 +62,20 @@
 			remoteGlobalIDString = F9907AEE2458947C00987667;
 			remoteInfo = SmoothWalker;
 		};
+		85CA497F29C9103D00BB7022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9907AE72458947B00987667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85CA496E29C9103A00BB7022;
+			remoteInfo = "AppleWatchSmoothWalker Watch App";
+		};
+		85CA498929C9103D00BB7022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9907AE72458947B00987667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85CA496E29C9103A00BB7022;
+			remoteInfo = "AppleWatchSmoothWalker Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +84,17 @@
 		8579DDF629C81EF9003B4DED /* ReportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewModel.swift; sourceTree = "<group>"; };
 		85CA496029C908B900BB7022 /* SmoothWalkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothWalkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CA496929C9093800BB7022 /* ReportViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewModelTests.swift; sourceTree = "<group>"; };
+		85CA496F29C9103A00BB7022 /* AppleWatchSmoothWalker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchSmoothWalker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CA497129C9103A00BB7022 /* AppleWatchSmoothWalkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchSmoothWalkerApp.swift; sourceTree = "<group>"; };
+		85CA497329C9103B00BB7022 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85CA497529C9103C00BB7022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85CA497829C9103C00BB7022 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85CA497E29C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleWatchSmoothWalker Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CA498229C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchSmoothWalker_Watch_AppTests.swift; sourceTree = "<group>"; };
+		85CA498829C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleWatchSmoothWalker Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CA498C29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchSmoothWalker_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		85CA498E29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchSmoothWalker_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85CA499D29C91D9700BB7022 /* AppleWatchSmoothWalker Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AppleWatchSmoothWalker Watch App.entitlements"; sourceTree = "<group>"; };
 		DDC3EAD6D9404AADDCC92FF8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EB12722A24859C1600548CD1 /* DataTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypeTableViewCell.swift; sourceTree = "<group>"; };
 		EB12722C2485BA9400548CD1 /* HealthDataTypeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataTypeValue.swift; sourceTree = "<group>"; };
@@ -99,6 +135,27 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		85CA495D29C908B900BB7022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA496C29C9103A00BB7022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA497B29C9103D00BB7022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA498529C9103D00BB7022 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,6 +214,43 @@
 				85CA496929C9093800BB7022 /* ReportViewModelTests.swift */,
 			);
 			path = SmoothWalkerTests;
+			sourceTree = "<group>";
+		};
+		85CA497029C9103A00BB7022 /* AppleWatchSmoothWalker Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				85CA499D29C91D9700BB7022 /* AppleWatchSmoothWalker Watch App.entitlements */,
+				85CA497129C9103A00BB7022 /* AppleWatchSmoothWalkerApp.swift */,
+				85CA497329C9103B00BB7022 /* ContentView.swift */,
+				85CA497529C9103C00BB7022 /* Assets.xcassets */,
+				85CA497729C9103C00BB7022 /* Preview Content */,
+			);
+			path = "AppleWatchSmoothWalker Watch App";
+			sourceTree = "<group>";
+		};
+		85CA497729C9103C00BB7022 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85CA497829C9103C00BB7022 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85CA498129C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				85CA498229C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppTests.swift */,
+			);
+			path = "AppleWatchSmoothWalker Watch AppTests";
+			sourceTree = "<group>";
+		};
+		85CA498B29C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85CA498C29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITests.swift */,
+				85CA498E29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "AppleWatchSmoothWalker Watch AppUITests";
 			sourceTree = "<group>";
 		};
 		A84DF625EC23E377183A6CF9 /* Configuration */ = {
@@ -291,6 +385,9 @@
 				DDC3EAD6D9404AADDCC92FF8 /* README.md */,
 				F9907AF12458947C00987667 /* SmoothWalker */,
 				85CA496129C908BA00BB7022 /* SmoothWalkerTests */,
+				85CA497029C9103A00BB7022 /* AppleWatchSmoothWalker Watch App */,
+				85CA498129C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppTests */,
+				85CA498B29C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppUITests */,
 				F9907AF02458947C00987667 /* Products */,
 				F9907B07245894E600987667 /* Frameworks */,
 				A84DF625EC23E377183A6CF9 /* Configuration */,
@@ -303,6 +400,9 @@
 			children = (
 				F9907AEF2458947C00987667 /* SmoothWalker.app */,
 				85CA496029C908B900BB7022 /* SmoothWalkerTests.xctest */,
+				85CA496F29C9103A00BB7022 /* AppleWatchSmoothWalker Watch App.app */,
+				85CA497E29C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppTests.xctest */,
+				85CA498829C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,9 +410,9 @@
 		F9907AF12458947C00987667 /* SmoothWalker */ = {
 			isa = PBXGroup;
 			children = (
-				8579DDF129C81B91003B4DED /* Report */,
 				F9907AF22458947C00987667 /* AppDelegate.swift */,
 				F9907AF42458947C00987667 /* SceneDelegate.swift */,
+				8579DDF129C81B91003B4DED /* Report */,
 				EB48C1BE246B25D000AE8FE3 /* View Controllers */,
 				EB48C1BF246B25DA00AE8FE3 /* Cells */,
 				EB326B51246B257000FEFD08 /* Models */,
@@ -354,6 +454,59 @@
 			productReference = 85CA496029C908B900BB7022 /* SmoothWalkerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		85CA496E29C9103A00BB7022 /* AppleWatchSmoothWalker Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CA499029C9103D00BB7022 /* Build configuration list for PBXNativeTarget "AppleWatchSmoothWalker Watch App" */;
+			buildPhases = (
+				85CA496B29C9103A00BB7022 /* Sources */,
+				85CA496C29C9103A00BB7022 /* Frameworks */,
+				85CA496D29C9103A00BB7022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWatchSmoothWalker Watch App";
+			productName = "AppleWatchSmoothWalker Watch App";
+			productReference = 85CA496F29C9103A00BB7022 /* AppleWatchSmoothWalker Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85CA497D29C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CA499329C9103D00BB7022 /* Build configuration list for PBXNativeTarget "AppleWatchSmoothWalker Watch AppTests" */;
+			buildPhases = (
+				85CA497A29C9103D00BB7022 /* Sources */,
+				85CA497B29C9103D00BB7022 /* Frameworks */,
+				85CA497C29C9103D00BB7022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85CA498029C9103D00BB7022 /* PBXTargetDependency */,
+			);
+			name = "AppleWatchSmoothWalker Watch AppTests";
+			productName = "AppleWatchSmoothWalker Watch AppTests";
+			productReference = 85CA497E29C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85CA498729C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CA499629C9103D00BB7022 /* Build configuration list for PBXNativeTarget "AppleWatchSmoothWalker Watch AppUITests" */;
+			buildPhases = (
+				85CA498429C9103D00BB7022 /* Sources */,
+				85CA498529C9103D00BB7022 /* Frameworks */,
+				85CA498629C9103D00BB7022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85CA498A29C9103D00BB7022 /* PBXTargetDependency */,
+			);
+			name = "AppleWatchSmoothWalker Watch AppUITests";
+			productName = "AppleWatchSmoothWalker Watch AppUITests";
+			productReference = 85CA498829C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F9907AEE2458947C00987667 /* SmoothWalker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9907B032458947D00987667 /* Build configuration list for PBXNativeTarget "SmoothWalker" */;
@@ -389,6 +542,17 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = F9907AEE2458947C00987667;
 					};
+					85CA496E29C9103A00BB7022 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					85CA497D29C9103D00BB7022 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 85CA496E29C9103A00BB7022;
+					};
+					85CA498729C9103D00BB7022 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 85CA496E29C9103A00BB7022;
+					};
 					F9907AEE2458947C00987667 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -412,12 +576,38 @@
 			targets = (
 				F9907AEE2458947C00987667 /* SmoothWalker */,
 				85CA495F29C908B900BB7022 /* SmoothWalkerTests */,
+				85CA496E29C9103A00BB7022 /* AppleWatchSmoothWalker Watch App */,
+				85CA497D29C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppTests */,
+				85CA498729C9103D00BB7022 /* AppleWatchSmoothWalker Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		85CA495E29C908B900BB7022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA496D29C9103A00BB7022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CA497929C9103C00BB7022 /* Preview Assets.xcassets in Resources */,
+				85CA497629C9103C00BB7022 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA497C29C9103D00BB7022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA498629C9103D00BB7022 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -443,6 +633,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				85CA496A29C9093800BB7022 /* ReportViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA496B29C9103A00BB7022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CA499929C9167100BB7022 /* HealthDataTypeValue.swift in Sources */,
+				85CA499C29C918DF00BB7022 /* HealthData.swift in Sources */,
+				85CA497429C9103B00BB7022 /* ContentView.swift in Sources */,
+				85CA499E29C9271900BB7022 /* HealthKitSupport+Strings.swift in Sources */,
+				85CA497229C9103A00BB7022 /* AppleWatchSmoothWalkerApp.swift in Sources */,
+				85CA499B29C916DC00BB7022 /* HealthKitSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA497A29C9103D00BB7022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CA498329C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA498429C9103D00BB7022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CA498D29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITests.swift in Sources */,
+				85CA498F29C9103D00BB7022 /* AppleWatchSmoothWalker_Watch_AppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +707,16 @@
 			isa = PBXTargetDependency;
 			target = F9907AEE2458947C00987667 /* SmoothWalker */;
 			targetProxy = 85CA496429C908BA00BB7022 /* PBXContainerItemProxy */;
+		};
+		85CA498029C9103D00BB7022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85CA496E29C9103A00BB7022 /* AppleWatchSmoothWalker Watch App */;
+			targetProxy = 85CA497F29C9103D00BB7022 /* PBXContainerItemProxy */;
+		};
+		85CA498A29C9103D00BB7022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85CA496E29C9103A00BB7022 /* AppleWatchSmoothWalker Watch App */;
+			targetProxy = 85CA498929C9103D00BB7022 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -547,6 +777,160 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmoothWalker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmoothWalker";
+			};
+			name = Release;
+		};
+		85CA499129C9103D00BB7022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "AppleWatchSmoothWalker Watch App/AppleWatchSmoothWalker Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchSmoothWalker Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZD762S758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchSmoothWalker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow this app to share your Health data to doctors and clinicians.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow this app to write health data provided from your doctor or clinician.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.alunaTakeHome;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.alunaTakeHome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		85CA499229C9103D00BB7022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "AppleWatchSmoothWalker Watch App/AppleWatchSmoothWalker Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchSmoothWalker Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZD762S758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchSmoothWalker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow this app to share your Health data to doctors and clinicians.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow this app to write health data provided from your doctor or clinician.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.alunaTakeHome;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.alunaTakeHome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		85CA499429C9103D00BB7022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZD762S758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.schrodingersBit.AppleWatchSmoothWalker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchSmoothWalker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleWatchSmoothWalker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		85CA499529C9103D00BB7022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZD762S758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.schrodingersBit.AppleWatchSmoothWalker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchSmoothWalker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleWatchSmoothWalker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		85CA499729C9103D00BB7022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZD762S758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.schrodingersBit.AppleWatchSmoothWalker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AppleWatchSmoothWalker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		85CA499829C9103D00BB7022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZD762S758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.schrodingersBit.AppleWatchSmoothWalker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AppleWatchSmoothWalker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -683,7 +1067,7 @@
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SmoothWalker${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.alunaTakeHome;
 				PRODUCT_NAME = SmoothWalker;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -706,7 +1090,7 @@
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SmoothWalker${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.alunaTakeHome;
 				PRODUCT_NAME = SmoothWalker;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -722,6 +1106,33 @@
 			buildConfigurations = (
 				85CA496629C908BA00BB7022 /* Debug */,
 				85CA496729C908BA00BB7022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CA499029C9103D00BB7022 /* Build configuration list for PBXNativeTarget "AppleWatchSmoothWalker Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CA499129C9103D00BB7022 /* Debug */,
+				85CA499229C9103D00BB7022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CA499329C9103D00BB7022 /* Build configuration list for PBXNativeTarget "AppleWatchSmoothWalker Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CA499429C9103D00BB7022 /* Debug */,
+				85CA499529C9103D00BB7022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CA499629C9103D00BB7022 /* Build configuration list for PBXNativeTarget "AppleWatchSmoothWalker Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CA499729C9103D00BB7022 /* Debug */,
+				85CA499829C9103D00BB7022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

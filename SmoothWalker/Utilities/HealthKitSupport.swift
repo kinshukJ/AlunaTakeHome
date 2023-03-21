@@ -8,6 +8,13 @@ A collection of utility functions used for general HealthKit purposes.
 import Foundation
 import HealthKit
 
+/// Date range pertaining to health data
+enum DateRange: String {
+    case day = "Day"
+    case week = "Week"
+    case month = "Month"
+}
+
 // MARK: Sample Type Identifier Support
 
 /// Return an HKSampleType based on the input identifier that corresponds to an HKQuantityTypeIdentifier, HKCategoryTypeIdentifier
@@ -89,7 +96,7 @@ func getStartDate(for dateRange: DateRange = .week, from date: Date = Date()) ->
     case .day:
         return Calendar.current.date(byAdding: .day, value: -1, to: date)!
     case .week:
-        return Calendar.current.date(byAdding: .day, value: -6, to: date)!
+        return Calendar.current.date(byAdding: .day, value: -7, to: date)!
     case .month:
         return Calendar.current.date(byAdding: .day, value: -30, to: date)!
     }

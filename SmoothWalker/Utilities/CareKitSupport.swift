@@ -10,12 +10,6 @@ import CareKitUI
 
 // MARK: - Chart Date UI
 
-enum DateRange: String {
-    case day = "Day"
-    case week = "Week"
-    case month = "Month"
-}
-
 /// Return a label describing the date range of the chart for the last week. Example: "Jun 3 - Jun 10, 2020"
 func createChartDateRangeLabel(for dateRange: DateRange = .week, lastDate: Date = Date()) -> String {
     let calendar: Calendar = .current
